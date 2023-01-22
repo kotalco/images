@@ -1,0 +1,138 @@
+{
+    "version": "1",
+    "protocols": {
+        "ethereum": {
+            "components": {
+                "executionEngine": {
+                    "clients": {
+                        "besu": {
+                            "repository": "https://github.com/hyperledger/besu",
+                            "versions": [
+                                {
+                                    "name": "v1",
+                                    "image": "kotalco/besu:v1",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
+                                    "next": "v2",
+                                    "previous": "",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v2",
+                                    "image": "kotalco/besu:v2",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
+                                    "next": "v3",
+                                    "previous": "v1",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": true
+                                },
+                                {
+                                    "name": "v3",
+                                    "image": "kotalco/besu:v3",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
+                                    "next": "v4",
+                                    "previous": "v2",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v4",
+                                    "image": "kotalco/besu:v4",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
+                                    "next": "",
+                                    "previous": "v3",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "geth": {
+                            "repository": "https://github.com/ethereum/go-ethereum",
+                            "versions": [
+                                {
+                                    "name": "v1",
+                                    "image": "kotalco/geth:v1",
+                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
+                                    "next": "v2",
+                                    "previous": "",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v2",
+                                    "image": "kotalco/geth:v2",
+                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
+                                    "next": "v3",
+                                    "previous": "v1",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": true
+                                },
+                                {
+                                    "name": "v3",
+                                    "image": "kotalco/geth:v3",
+                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
+                                    "next": "v4",
+                                    "previous": "v2",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v4",
+                                    "image": "kotalco/geth:v4",
+                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
+                                    "next": "",
+                                    "previous": "v3",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "nethermind": {
+                            "repository": "https://github.com/NethermindEth/nethermind",
+                            "versions": [
+                                {
+                                    "name": "v1",
+                                    "image": "kotalco/nethermind:v1",
+                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
+                                    "next": "v2",
+                                    "previous": "",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v2",
+                                    "image": "kotalco/nethermind:v2",
+                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
+                                    "next": "v3",
+                                    "previous": "v1",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": true
+                                },
+                                {
+                                    "name": "v3",
+                                    "image": "kotalco/nethermind:v3",
+                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
+                                    "next": "v4",
+                                    "previous": "v2",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v4",
+                                    "image": "kotalco/nethermind:v4",
+                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
+                                    "next": "",
+                                    "previous": "v3",
+                                    "canBeUpgraded": true,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                "beaconNode": {},
+                "validatorClient": {}
+            }
+        }
+    }
+}
