@@ -19,7 +19,7 @@
                                 },
                                 {
                                     "name": "23",
-                                    "image": "hyperledger/besu:22.10.0",
+                                    "image": "hyperledger/besu:22.10.1",
                                     "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.0",
                                     "next": "",
                                     "previous": "22.10.0",
