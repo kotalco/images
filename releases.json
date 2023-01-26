@@ -9,39 +9,12 @@
                             "repository": "https://github.com/hyperledger/besu",
                             "versions": [
                                 {
-                                    "name": "v1",
-                                    "image": "kotalco/besu:v1",
-                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
-                                    "next": "v2",
-                                    "previous": "",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v2",
-                                    "image": "kotalco/besu:v2",
-                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
-                                    "next": "v3",
-                                    "previous": "v1",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": true
-                                },
-                                {
-                                    "name": "v3",
-                                    "image": "kotalco/besu:v3",
-                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
-                                    "next": "v4",
-                                    "previous": "v2",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v4",
-                                    "image": "kotalco/besu:v4",
-                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.3",
+                                    "name": "22.10.0",
+                                    "image": "hyperledger/besu:22.10.0",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.0",
                                     "next": "",
-                                    "previous": "v3",
-                                    "canBeUpgraded": true,
+                                    "previous": "",
+                                    "canBeUpgraded": false,
                                     "canBeDowngraded": false
                                 }
                             ]
@@ -50,39 +23,12 @@
                             "repository": "https://github.com/ethereum/go-ethereum",
                             "versions": [
                                 {
-                                    "name": "v1",
-                                    "image": "kotalco/geth:v1",
-                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
-                                    "next": "v2",
-                                    "previous": "",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v2",
-                                    "image": "kotalco/geth:v2",
-                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
-                                    "next": "v3",
-                                    "previous": "v1",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": true
-                                },
-                                {
-                                    "name": "v3",
-                                    "image": "kotalco/geth:v3",
-                                    "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
-                                    "next": "v4",
-                                    "previous": "v2",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v4",
-                                    "image": "kotalco/geth:v4",
+                                    "name": "v1.10.26",
+                                    "image": "kotalco/geth:v1.10.26",
                                     "releaseNotes": "https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26",
                                     "next": "",
-                                    "previous": "v3",
-                                    "canBeUpgraded": true,
+                                    "previous": "",
+                                    "canBeUpgraded": false,
                                     "canBeDowngraded": false
                                 }
                             ]
@@ -91,47 +37,277 @@
                             "repository": "https://github.com/NethermindEth/nethermind",
                             "versions": [
                                 {
-                                    "name": "v1",
-                                    "image": "kotalco/nethermind:v1",
-                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
-                                    "next": "v2",
-                                    "previous": "",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v2",
-                                    "image": "kotalco/nethermind:v2",
-                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
-                                    "next": "v3",
-                                    "previous": "v1",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": true
-                                },
-                                {
-                                    "name": "v3",
-                                    "image": "kotalco/nethermind:v3",
-                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
-                                    "next": "v4",
-                                    "previous": "v2",
-                                    "canBeUpgraded": true,
-                                    "canBeDowngraded": false
-                                },
-                                {
-                                    "name": "v4",
-                                    "image": "kotalco/nethermind:v4",
-                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.16.0",
+                                    "name": "v1.14.5",
+                                    "image": "kotalco/nethermind:v1.14.5",
+                                    "releaseNotes": "https://github.com/NethermindEth/nethermind/releases/tag/1.14.5",
                                     "next": "",
-                                    "previous": "v3",
-                                    "canBeUpgraded": true,
+                                    "previous": "",
+                                    "canBeUpgraded": false,
                                     "canBeDowngraded": false
                                 }
                             ]
                         }
                     }
                 },
-                "beaconNode": {},
-                "validatorClient": {}
+                "beaconNode": {
+                    "clients": {
+                        "teku": {
+                            "repository": "https://github.com/Consensys/teku",
+                            "versions": [
+                                {
+                                    "name": "22.11.0",
+                                    "image": "consensys/teku:22.11.0",
+                                    "releaseNotes": "https://github.com/ConsenSys/teku/releases/tag/22.12.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "nimbus": {
+                            "repository": "https://github.com/status-im/nimbus-eth2",
+                            "versions": [
+                                {
+                                    "name": "v22.10.1",
+                                    "image": "kotalco/nimbus:v22.10.1",
+                                    "releaseNotes": "https://github.com/status-im/nimbus-eth2/releases/tag/v22.10.1",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "lighthouse": {
+                            "repository": "https://github.com/sigp/lighthouse",
+                            "versions": [
+                                {
+                                    "name": "v3.3.0",
+                                    "image": "kotalco/lighthouse:v3.3.0",
+                                    "releaseNotes": "https://github.com/sigp/lighthouse/releases/tag/v3.3.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "prysm": {
+                            "repository": "https://github.com/prysmaticlabs/prysm",
+                            "versions": [
+                                {
+                                    "name": "v3.1.2",
+                                    "image": "kotalco/prysm:v3.1.2",
+                                    "releaseNotes": "https://github.com/prysmaticlabs/prysm/releases/tag/v3.1.2",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                "validatorClient": {
+                    "clients": {
+                        "teku": {
+                            "repository": "https://github.com/Consensys/teku",
+                            "versions": [
+                                {
+                                    "name": "22.11.0",
+                                    "image": "consensys/teku:22.11.0",
+                                    "releaseNotes": "https://github.com/ConsenSys/teku/releases/tag/22.12.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "nimbus": {
+                            "repository": "https://github.com/status-im/nimbus-eth2",
+                            "versions": [
+                                {
+                                    "name": "v22.10.1",
+                                    "image": "kotalco/nimbus:v22.10.1",
+                                    "releaseNotes": "https://github.com/status-im/nimbus-eth2/releases/tag/v22.10.1",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "lighthouse": {
+                            "repository": "https://github.com/sigp/lighthouse",
+                            "versions": [
+                                {
+                                    "name": "v3.3.0",
+                                    "image": "kotalco/lighthouse:v3.3.0",
+                                    "releaseNotes": "https://github.com/sigp/lighthouse/releases/tag/v3.3.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        },
+                        "prysm": {
+                            "repository": "https://github.com/prysmaticlabs/prysm",
+                            "versions": [
+                                {
+                                    "name": "v3.1.2",
+                                    "image": "kotalco/prysm:v3.1.2",
+                                    "releaseNotes": "https://github.com/prysmaticlabs/prysm/releases/tag/v3.1.2",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "ipfs": {
+            "components": {
+                "peer": {
+                    "clients": {
+                        "kubo": {
+                            "repository": "https://github.com/ipfs/kubo",
+                            "versions": [
+                                {
+                                    "name": "v0.17.0",
+                                    "image": "kotalco/kubo:v0.17.0",
+                                    "releaseNotes": "https://github.com/ipfs/kubo/releases/tag/v0.17.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                "clusterPeer": {
+                    "clients": {
+                        "ipfs-cluster": {
+                            "repository": "https://github.com/ipfs/ipfs-cluster",
+                            "versions": [
+                                {
+                                    "name": "v0.14.2",
+                                    "image": "kotalco/ipfs-cluster:v0.14.2",
+                                    "releaseNotes": "https://github.com/ipfs/ipfs-cluster/releases/tag/v0.14.2",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "polkadot": {
+            "components": {
+                "node": {
+                    "clients": {
+                        "polkadot": {
+                            "repository": "https://github.com/paritytech/polkadot",
+                            "versions": [
+                                {
+                                    "name": "v0.9.32",
+                                    "image": "parity/polkadot:v0.9.32",
+                                    "releaseNotes": "https://github.com/paritytech/polkadot/releases/tag/v0.9.32",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "near": {
+            "components": {
+                "node": {
+                    "clients": {
+                        "nearcore": {
+                            "repository": "https://github.com/near/nearcore",
+                            "versions": [
+                                {
+                                    "name": "1.29.1",
+                                    "image": "kotalco/nearcore:1.29.1",
+                                    "releaseNotes": "https://github.com/near/nearcore/releases/tag/1.29.1",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "chainlink": {
+            "components": {
+                "node": {
+                    "clients": {
+                        "chainlink": {
+                            "repository": "https://github.com/smartcontractkit/chainlink",
+                            "versions": [
+                                {
+                                    "name": "v1.10.0",
+                                    "image": "kotalco/chainlink:v1.10.0",
+                                    "releaseNotes": "https://github.com/smartcontractkit/chainlink/releases/tag/v1.10.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "filecoin": {
+            "components": {
+                "node": {
+                    "clients": {
+                        "lotus": {
+                            "repository": "https://github.com/filecoin-project/lotus",
+                            "versions": [
+                                {
+                                    "name": "v1.18.0",
+                                    "image": "kotalco/lotus:v1.18.0",
+                                    "network": "mainnet",
+                                    "releaseNotes": "https://github.com/filecoin-project/lotus/releases/tag/v1.18.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "v1.18.0",
+                                    "image": "kotalco/lotus:v1.18.0-calibration",
+                                    "network": "calibration",
+                                    "releaseNotes": "https://github.com/filecoin-project/lotus/releases/tag/v1.18.0",
+                                    "next": "",
+                                    "previous": "",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": false
+                                }
+                            ]
+                        }
+                    }
+                }
             }
         }
     }
