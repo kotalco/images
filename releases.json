@@ -12,10 +12,19 @@
                                     "name": "22.10.0",
                                     "image": "hyperledger/besu:22.10.0",
                                     "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.0",
-                                    "next": "",
+                                    "next": "23",
                                     "previous": "",
-                                    "canBeUpgraded": false,
+                                    "canBeUpgraded": true,
                                     "canBeDowngraded": false
+                                },
+                                {
+                                    "name": "23",
+                                    "image": "hyperledger/besu:22.10.0",
+                                    "releaseNotes": "https://github.com/hyperledger/besu/releases/tag/22.10.0",
+                                    "next": "",
+                                    "previous": "22.10.0",
+                                    "canBeUpgraded": false,
+                                    "canBeDowngraded": true
                                 }
                             ]
                         },
