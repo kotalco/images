@@ -53,7 +53,7 @@
                             "versions": [
                                 {
                                     "name": "v25.0",
-                                    "image": "kotalco/chainlink:v25.0",
+                                    "image": "lncm/bitcoind:v25.0",
                                     "releaseNotes": "https://github.com/bitcoin/bitcoin/releases/tag/v25.0",
                                     "next": "",
                                     "previous": "",
