@@ -384,7 +384,7 @@
                             "versions": [
                                 {
                                     "name": "v2.4.0",
-                                    "image": "kotalco/chainlink:2.4.0.0.0",
+                                    "image": "kotalco/stacks:2.4.0.0.0",
                                     "releaseNotes": "https://github.com/stacks-network/stacks-blockchain/releases/tag/2.4.0.0.0",
                                     "next": "",
                                     "previous": "",
